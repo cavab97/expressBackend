@@ -176,6 +176,11 @@ When done, execute the docker run command to create a container from a net.ts im
 
 That's it, you just ran the app in production mode.
 
+Error: Debug Failure. False expression: Non-string value passed to `ts.resolveTypeReferenceDirective`, likely by a wrapping package working with an outdated `resolveTypeReferenceDirectives` signature. This is probably not a problem in TS itself.
+Child got SIGTERM, exiting.
+
+`npm i --save-dev ts-node-dev@latest`
+
 ## Contributing
 
 All contributions are welcome!
